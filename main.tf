@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "devops_workshop"
+    resource_group_name  = "pwcterraformstate"
     storage_account_name = "pwcterraformstate"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
